@@ -1,0 +1,97 @@
+.container {
+  width: 70%;
+  margin: 0 auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.home {
+  height: 100vh;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../1.jpg);
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.home .btn button {
+  width: 100px;
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid #b6a6a6;
+  cursor: pointer;
+}
+
+.home .btn button:hover {
+  background-color: #a19681;
+  color: white;
+}
+
+.home .btn button a {
+  color: #b6a6a6;
+}
+
+.home .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.home .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.home ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 350px;
+}
+
+.home ul li {
+  list-style: none;
+  margin-left: 50px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.home ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.home .manu {
+  text-align: center;
+}
+
+.home .manu {
+  font-size: 40px;
+}
+
+.home .btn1 button {
+  width: 200px;
+  height: 50px;
+  background-color: #c2bbae;
+  border: none;
+}
+
+.home .btn1 button a {
+  text-decoration: none;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
